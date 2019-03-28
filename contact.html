@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>ACM - FISAT Chapter</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <!--<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>-->
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/contact.css" rel="stylesheet" />
+    <style>
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
+</head>
+
+<body style="background-color: #ffffff;">
+  <div class="navbar-fixed">
+    <nav class="navbar" role="navigation" class="padding-left:10%; padding-right: 10%;">
+      <div class="nav-wrapper" style="padding-left:15%; padding-right: 15%;">
+          <a id="logo-container" href="#" class="brand-logo">ACM Chapter FISAT</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="contact.html">Contact Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="sidenav" style="background-color: #263238;">
+            <li><a style="color: #ffffff" href="index.html">Home</a></li>
+            <li><a style="color: #ffffff" href="events.html">Events</a></li>
+            <li><a style="color: #ffffff" href="about.html">About</a></li>
+            <li class="active"><a style="color: #ffffff" href="contact.html">Contact Us</a></li>
+            <li><a style="color: #ffffff" href="gallery.html">Gallery</a></li>
+          </ul>
+      </div>
+    </nav>
+  </div>
+
+   
+    <section id="send-mail" style="background-color: #ecf0fa;">
+      <div class="container" style="padding-top: 2rem; padding-bottom: 3rem;">
+        <div class="row">
+          <div class="col s12 m8">
+            <div>
+              <h4>Send us a mail!!</h4>
+            </div>
+            <form action="mailto:acmfisat@gmail.com" method="post" enctype="text/plain">
+              <input type="text" name="first_name" placeholder="NAME" required>
+              <input  type="email" name="email" placeholder="MAIL" required>
+              <textarea name="comments" placeholder="MESSAGE" required ></textarea>
+              <button name="send" type="submit" class="submit">SEND</button>
+            </form>
+          </div>
+          <div class="col s12 m4">
+            <div>
+              <h4>Connect through Social Media</h4>
+            </div>
+            <div>
+              <ul class="collapsible popout">
+                <li>
+                  <div class="collapsible-header"><img src="icons/email.png">E-mail</div>
+                  <!--<div class="collapsible-header"><i class="material-icons">email</i>First</div>-->
+                  <div class="collapsible-body"><span>acmfisat@gmail.com</span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><img src="icons/facebook-box.png"><span>Facebook</span></div>
+                  <div class="collapsible-body"><span><a href="https://www.facebook.com/acmfisat">https://www.facebook.com/acmfisat</a></span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><img src="icons/instagram.png"><span>Instagram</span></div>
+                  <div class="collapsible-body"><span><a href="https://www.instagram.com/acmstudentschapter">https://www.instagram.com/acmstudentschapter</a></span></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
+    <!--<div class="container" style="padding-bottom: 3rem;">
+      <div>
+        <h3 align="center">Connect through Social Media</h3>
+      </div>
+      <div>
+        <ul class="collapsible popout">
+          <li>
+            <div class="collapsible-header"><img src="icons/email.png">E-mail</div>
+            <div class="collapsible-body"><span>acmfisat@gmail.com</span></div>
+          </li>
+          <li>
+            <div class="collapsible-header"><img src="icons/facebook-box.png"><span>Facebook</span></div>
+            <div class="collapsible-body"><span><a href="https://www.facebook.com/acmfisat">https://www.facebook.com/acmfisat</a></span></div>
+          </li>
+          <li>
+            <div class="collapsible-header"><img src="icons/instagram.png"><span>Instagram</span></div>
+            <div class="collapsible-body"><span><a href="https://www.instagram.com/acmstudentschapter">https://www.instagram.com/acmstudentschapter</a></span></div>
+          </li>
+        </ul>
+      </div>
+    </div>-->
+
+      <div  style="background-color: #ededed; padding-top: 2rem;">
+      <div class="container">
+        <div>
+          <h3 align="center">Contact the Team!!</h3>
+        </div>
+        <div class="row">
+          <div class="col s12 m4" style="text-align: center">
+            <h4>Chairperson</h4>
+            <img class="responsive-img circle" src="img/lakshmi.jpg" width="70%">
+            <div><strong>Lakshmi A S</strong></div>
+            <div><img src="icons/cellphone-android.png" style="vertical-align:middle"><span>+91 75580 83360</span></div>
+            <div><img src="icons/email.png" style="vertical-align:middle"><span>aslakshmi97@gmail.com</span></div>
+            <div class="row">
+              <div class="col s6">
+                <a href="#">
+                  <img src="icons/github-circle.png" style="float: right">
+                </a>
+              </div>
+              <div class="col s6">
+                <a href="https://www.linkedin.com/in/lakshmias/">
+                  <img src="icons/linkedin.png"  style="float: left">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4" style="text-align: center">
+            <h4>Vice-Chairman</h4>
+            <img class="responsive-img circle" src="img/mohit.jpeg" width="70%" style="float: center">
+            <div><strong>Mohit Rajan E</strong></div>
+            <div><img src="icons/cellphone-android.png" style="vertical-align:middle"> +91 90379 69499</div>
+            <div><img src="icons/email.png" style="vertical-align:middle"> mhit98@gmail.com</div>
+            <div class="row">
+              <div class="col s6">
+                <a href="https://github.com/mohitrajane">
+                  <img src="icons/github-circle.png" style="float: right">
+                </a>
+              </div>
+              <div class="col s6">
+                <a href="https://www.linkedin.com/in/mohit-rajan-e-756412160">
+                  <img src="icons/linkedin.png"  style="float: left">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4" style="text-align: center">
+            <h4>Treasurer</h4>
+            <img class="responsive-img circle" src="img/visrutha.jpeg" width="70%">
+            <div><strong>Visrutha Arundhathi R</strong></div>
+            <div><img src="icons/cellphone-android.png" style="vertical-align:middle"> +91 94954 97126</div>
+            <div><img src="icons/email.png" style="vertical-align:middle"> visruthaarundhathi.r@gmail.com</div>
+            <div class="row">
+              <div class="col s6">
+                <a href="#">
+                  <img src="icons/github-circle.png" style="float: right">
+                </a>
+              </div>
+              <div class="col s6">
+                <a href="#">
+                  <img src="icons/linkedin.png"  style="float: left">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m4 push-m2" style="text-align: center">
+            <h4>Design Head</h4>
+            <img class="responsive-img circle" src="img/nandini.jpg" width="70%">
+            <div><strong>Nandini Menon</strong></div>
+            <div><img src="icons/cellphone-android.png" style="vertical-align:middle"> +91 94974 61138</div>
+            <div><img src="icons/email.png" style="vertical-align:middle"> menonnandini98@gmail.com</div>
+            <div class="row">
+              <div class="col s6">
+                <a href="https://github.com/Tangerine98">
+                  <img src="icons/github-circle.png" style="float: right">
+                </a>
+              </div>
+              <div class="col s6">
+                <a href="www.linkedin.com/in/nandinimenon">
+                  <img src="icons/linkedin.png"  style="float: left">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 push-m2" style="text-align: center">
+            <h4>Tech Head</h4>
+            <img class="responsive-img circle" src="img/yedhin.jpeg" width="70%">
+            <div><strong>Yedhin Kizhakkethara</strong></div>
+            <div><img src="icons/cellphone-android.png" style="vertical-align:middle"> +91 94976 56739</div>
+            <div><img src="icons/email.png" style="vertical-align:middle"> yedhin1998@gmail.com</div>
+            <div class="row">
+              <div class="col s6">
+                <a href="https://github.com/yedhink">
+                  <img src="icons/github-circle.png" style="float: right">
+                </a>
+              </div>
+              <div class="col s6">
+                <a href="https://www.linkedin.com/in/yedhin1998/">
+                  <img src="icons/linkedin.png"  style="float: left">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+    </div>
+
+    
+    <section id="location" style="padding-top: 2rem; padding-bottom: 2rem; background-color: #ffffff">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6" style="padding-bottom: 10rem; padding-top: 10rem;">
+            <span id="college-address" style="font-size: 22px;">Federal Institute of Science and Technology<br>
+              Hormis Nagar, Mookkannoor<br>
+              Angamaly, Kerala-683577</span>
+          </div>
+          <div class="col s12 m6">
+            <div id="map"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--
+    <div class="col l12">
+      <div class="card-panel" style="background-color: #1d6b87;">
+        <div>
+          <h1 align="center" style="color: #7689a9;" font-family:"RobotoSlab-Regular">We'd love to hear from you!</h1>
+        </div>
+        <div align="center" style="color: #ffffff;" font-family:"RobotoSlab-Regular">
+          <h2 font-family:"Roboto Slab">ACM Student Chapter FISAT</h2>
+          <p font-family:"Roboto Slab">Federal Institute of Science and Technology<br>
+          Hormis Nagar, Mookkannoor<br>
+          Angamaly, Kerala-683577</p>
+        </div>
+      </div>
+    </div>
+-->
+    <footer class="page-footer">
+        <div class="container">
+            <p align="center">Created by <a class="brown-text text-lighten-3" href="https://github.com/Tangerine98">Nandini  Menon</a><br></p>
+        </div>
+    </footer>
+
+    <script>
+      function initMap() {
+        var fisat = {lat: 10.232954, lng: 76.408754};
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 16, center: fisat});
+        var marker = new google.maps.Marker({position: fisat, map: map});
+      }
+    </script>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuuU1CLP8qBFCrkXJU6fNRftZyqs7jeAI&callback=initMap">
+    </script>
+
+</body>
+</html>

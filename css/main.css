@@ -1,0 +1,53 @@
+img {
+    vertical-align: center;
+}
+nav {
+    background-color: #2196f3;
+}
+.nav-wrapper {
+    background-color: #2196f3 !important;
+}
+
+
+footer {
+    background-color: #2196f3 !important;
+}
+/*
+@media only screen and (min-width: 600px) {
+    .collapsible.popout {
+        width: 40%;
+        margin: auto;
+    }
+}
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.collapsible-header {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.collapsible-body {
+    text-align: center;
+}
+
+#contact-team {
+    text-align: center;
+}
+
+.heading-mine{
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+}
+.card-reveal{
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.7) !important;
+}
+div.card-reveal span.card-title{
+    color: #ffffff !important;
+}
+
+#testimonial {
+    font-family: 'Charm', cursive;
+    font-size: 30px !important ;
+}
